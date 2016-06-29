@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Unicase:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="css/indexcss.css">
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/indexjs.js"></script>
+    <title>The Disney Renaissance</title>
+
+</head>
+<!-- Nav Bar -->
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<nav class="navbar navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Home</a>
+        </div>
+        <div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#Movies">Movies</a></li>
+                    <li><a href="#About">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!--Page Header -->
+<div id="Header" class="page-header">
+    <h1>The Disney Renaissance Era<br/>
+        <small>1989-1999</small>
+    </h1>
+</div>
+
+<!-- Movies -->
+<div id="Movies" class="container-fluid">
+    <h1>Movies</h1>
+    <hr/>
+    <div class="row">
+        <div class="col-xs-2">
+            <div><img id="littleMermaid" data-toggle="modal" data-target="#myModal" data-title="The Little Mermaid"
+                      src="img/the%20little%20mermaid.jpg" alt="The Little Mermaid" title="The Little Mermaid"></div>
+        </div>
+        <div class="col-xs-2 col-half-offset">
+            <div><img id="rescueDownUnder" data-toggle="modal" data-target="#myModal"
+                      data-title="The Rescuers Down Under"
+                      src="img/rescuers.jpg" alt="The Rescuers From Down Under" title="The Rescuers From Down Under">
+            </div>
+        </div>
+        <div class="col-xs-2 col-half-offset">
+            <div><img data-toggle="modal" data-target="#myModal" data-title="Beauty and the Beast"
+                      src="img/beauty%20and%20the%20beast.jpg" alt="Beauty and the Beast" title="Beauty and the Beast">
+            </div>
+        </div>
+        <div class="col-xs-2 col-half-offset">
+            <div><img data-toggle="modal" data-target="#myModal" data-title="Aladdin"
+                      src="img/aladdin.jpg" alt="Aladdin" title="Aladdin"></div>
+        </div>
+        <div class="col-xs-2 col-half-offset">
+            <div><img data-toggle="modal" data-target="#myModal" data-title="The Lion King"
+                      src="img/the%20lion%20king.jpg" alt="The Lion King" title="The Lion King"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-2">
+            <div><img data-toggle="modal" data-target="#myModal" data-title="Pocahontas"
+                      src="img/pocahontas.jpg" alt="Pocahontas"></div>
+        </div>
+        <div class="col-xs-2 col-half-offset">
+            <div><img data-toggle="modal" data-target="#myModal" data-title="The Hunchback of Notre Dame"
+                      src="img/hunchback.jpg" alt="The Hunchback of Notre Dame"></div>
+        </div>
+        <div class="col-xs-2 col-half-offset">
+            <div><img data-toggle="modal" data-target="#myModal" data-title="Hercules"
+                      src="img/hercules.png" alt="Hercules"></div>
+        </div>
+        <div class="col-xs-2 col-half-offset">
+            <div><img data-toggle="modal" data-target="#myModal" data-title="Mulan"
+                      src="img/mulan.jpg" alt="Mulan"></div>
+        </div>
+        <div class="col-xs-2 col-half-offset">
+            <div><img data-toggle="modal" data-target="#myModal" data-title="Tarzan"
+                      src="img/tarzan_fan_made_poster__1_by_miamsolo-d7g116g.jpg" alt="Tarzan"></div>
+        </div>
+    </div>
+
+    <!--Movies Modal-->
+
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title"></h2>
+                </div>
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                    <button id="close" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--About Section -->
+
+<div id="About" class="container-fluid">
+    <h1>About</h1>
+    <hr/>
+    <p>The Disney Renaissance is the era from 1989 to 1999 during which Walt Disney Feature Animation (renamed Walt
+        Disney Animation Studios in 2006) experienced a creative resurgence in producing successful animated films based
+        on well-known stories, which restored public and critical interest in The Walt Disney Company as a whole.</p>
+</div>
+
+<div id="Footer">
+    <p>I do not own the images all Images are taken from Google Images</p>
+</div>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

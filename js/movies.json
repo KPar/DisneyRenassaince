@@ -1,0 +1,86 @@
+{
+  "movies": [
+      {
+        "title": "The Little Mermaid",
+        "directors": "<h3>Directed By:</h3> <p>Ron Clements And John Musker</p>",
+        "releaseYear": "<h3>Year Released</h3> <p>1989</p>",
+        "worldwideGross": " <h3>World Wide Gross</h3> <p>$211,343,479</p>",
+        "plot": "<h3>Plot</h3> <p> The Little Mermaid is a 1989 American animated musical fantasy film produced by Walt Disney Feature Animation and released by Walt Disney Pictures. </p><p> Based on the Danish fairy tale of the same name by Hans Christian Andersen, The Little Mermaid tells the story of a beautiful mermaid princess who dreams of becoming human. </p>",
+        "links": "<h3>Links</h3> <p> <button class='btn btn-warning'><a target='_blank' href='http://www.imdb.com/title/tt0097757/?ref_=nv_sr_4'>IMDB</a></button> <button class='btn btn-danger'><a target='_blank' href='https://www.youtube.com/watch?v=ZGZX5-PAwR8'>YouTube</a></button> </p>"
+      },
+      {
+        "title": "The Rescuers Down Under",
+        "directors": "<h3>Directed By:</h3> <p>Mike Gabriel and Hendel Butoy</p>",
+        "releaseYear": "<h3>Year Released</h3> <p>1990</p>",
+        "worldwideGross": " <h3>World Wide Gross</h3><p>$47,400,000</p>",
+        "plot": "<h3>Plot</h3> <p>The film centers on Bernard and Bianca travelling to Australia to save a boy named Cody from a bloodthirsty poacher in pursuit of an endangered bird of prey. </p>",
+        "links": "<h3>Links</h3> <p> <button class='btn btn-warning'><a target='_blank' href='http://www.imdb.com/title/tt0100477/?ref_=nv_sr_1'>IMDB</a></button> <button class='btn btn-danger'><a target='_blank' href='https://www.youtube.com/watch?v=bJMlNrEbk0k'>YouTube</a></button> </p>"
+      },
+    {
+      "title": "Beauty and the Beast",
+      "directors" : "<h3>Directed By:</h3> <p>Gary Trousdale and Kirk Wise</p>",
+      "releaseYear": "<h3>Year Released</h3> <p>1991</p>",
+      "worldwideGross" : "<h3>World Wide Gross </h3> <p>$443,001,576</p>",
+      "plot" : "<h3>Plot</h3> <p>An enchantress, disguised as an old beggar, offers a rose to a young prince, in exchange for shelter in his castle from the cold, but the prince refuses. For his arrogance, the enchantress transforms him into a beast and places a spell on the castle. </p> <p> To break the spell, the prince must learn to love another and earn her love in return before the rose's last petal falls on his 21st birthday. If he fails, he will remain a beast forever.</p>",
+      "links": "<h3>Links</h3> <p> <button class='btn btn-warning'><a target='_blank' href='http://www.imdb.com/title/tt0101414/?ref_=fn_al_tt_3'>IMDB</a></button> <button class='btn btn-danger'><a target='_blank' href='https://www.youtube.com/watch?v=tRlzmyveDHE'>YouTube</a></button> </p>"
+    },
+    {
+      "title" : "Aladdin",
+      "directors" : "<h3>Directed By:</h3> <p>Ron Clements and John Musker</p>",
+      "releaseYear": "<h3>Year Released</h3> <p>1992</p>",
+      "worldwideGross" : "<h3>World Wide Gross </h3> <p>$504,050,219</p>",
+      "plot" : "<h3>Plot</h3> <p>Aladdin based on the Arab-style folktale Aladdin and the magic lamp from One Thousand and One Nights. The voice cast features Scott Weinger, Robin Williams, Linda Larkin, Jonathan Freeman, Frank Welker, Gilbert Gottfried, and Douglas Seale.</p>",
+      "links": "<h3>Links</h3> <p> <button class='btn btn-warning'><a target='_blank' href='http://www.imdb.com/title/tt0103639/?ref_=nv_sr_1'>IMDB</a></button> <button class='btn btn-danger'><a target='_blank' href='https://www.youtube.com/watch?v=QapaqcDucmg'</a> YouTube </button> </p>"
+    },
+    {
+      "title" : "The Lion King",
+      "directors" : "<h3>Directed By:</h3> <p>Roger Allers and Rob Minkoff</p>",
+      "releaseYear": "<h3>Year Released</h3> <p>1994</p>",
+      "worldwideGross" : "<h3>World Wide Gross </h3> <p>$987,483,777</p>",
+      "plot" : "<h3>Plot</h3> <p> The Lion King tells the story of Simba, a young lion who is to succeed his father, Mufasa, as king; however, after Simba's uncle Scar murders Mufasa, Simba is manipulated into thinking he was responsible and flees into exile in shame and despair.</p> <p>Upon maturation living with two wastrels, Simba is given some valuable perspective from his childhood friend, Nala, and his shaman, Rafiki, before returning to challenge Scar to end his tyranny.</p>",
+      "links": "<h3>Links</h3> <p> <button class='btn btn-warning'><a target='_blank' href='http://www.imdb.com/title/tt0110357/?ref_=fn_al_tt_4'>IMDB</a></button> <button class='btn btn-danger'><a target='_blank' href='https://www.youtube.com/watch?v=4sj1MT05lAA'>YouTube</a></button> </p>"
+    },
+    {
+      "title" : "Pocahontas",
+      "directors" : "<h3>Directed By:</h3> <p>Mike Gabriel and Eric Goldberg</p>",
+      "releaseYear": "<h3>Year Released</h3> <p>1995</p>",
+      "worldwideGross" : "<h3>World Wide Gross </h3> <p>$346,079,773</p>",
+      "plot" : "<h3>Plot</h3> <p> Directed by Mike Gabriel and Eric Goldberg, the film is inspired by the known history and folklore surrounding the Native American woman Pocahontas, and portrays a fictionalized account of her historical encounter with Englishman John Smith and the Jamestown settlers that arrived from the Virginia Company. </p>",
+      "links": "<h3>Links</h3> <p> <button class='btn btn-warning'><a target='_blank' href='http://www.imdb.com/title/tt0114148/?ref_=nv_sr_1'>IMDB</a></button> <button class='btn btn-danger'><a target='_blank' href='https://www.youtube.com/watch?v=9q1QF8G47oU'>YouTube</a></button> </p>"
+    },
+    {
+      "title" : "The Hunchback of Notre Dame",
+      "directors" : "<h3>Directed By:</h3> <p>Gary Trousdale and Kirk Wise</p>",
+      "releaseYear": "<h3>Year Released</h3> <p>1996</p>",
+      "worldwideGross" : "<h3>World Wide Gross </h3> <p>$325,338,851</p>",
+      "plot" : "<h3>Plot</h3> <p> The plot centers on Quasimodo, the deformed bell-ringer of Notre Dame and his struggle to gain acceptance into society. </p>",
+      "links": "<h3>Links</h3> <p> <button class='btn btn-warning'><a target='_blank' href='http://www.imdb.com/title/tt0116583/?ref_=nv_sr_1'>IMDB</a></button> <button class='btn btn-danger'><a target='_blank' href='https://www.youtube.com/watch?v=IuBOvzXqPoY'>YouTube</a></button></p>"
+    },
+    {
+      "title" : "Hercules",
+      "directors" : "<h3>Directed By:</h3> <p>Ron Clements and John Musker</p>",
+      "releaseYear": "<h3>Year Released</h3> <p> 1997</p>",
+      "worldwideGross" : "<h3>World Wide Gross </h3> <p>$252,712,101</p>",
+      "plot" : "<h3>Plot</h3> <p> The film is loosely based on the legendary hero Heracles (known in the film by his Roman name, Hercules), the son of Zeus, in Greek mythology. </p>",
+      "links": "<h3>Links</h3> <p> <button class='btn btn-warning'><a target='_blank' href='http://www.imdb.com/title/tt0119282/?ref_=fn_al_tt_2'>IMDB</a></button> <button class='btn btn-danger'><a target='_blank' href='https://www.youtube.com/watch?v=ZvtspevZxpg'>YouTube</a></button></p>"
+    },
+    {
+      "title" : "Mulan",
+      "directors" : "<h3>Directed By:</h3> <p> Barry Cook and Tony Bancroft </p>",
+      "releaseYear": "<h3>Year Released</h3> <p>1998</p>",
+      "worldwideGross" : "<h3>World Wide Gross </h3> <p>$304,320,254</p>",
+      "plot" : "<h3>Plot</h3> <p> The film's plot takes place during the Han Dynasty, where Fa Mulan, daughter of aged warrior Fa Zhou, impersonates a man to take her father's place during a general conscription to counter a Hun invasion. </p>",
+      "links": "<h3>Links</h3> <p> <button class='btn btn-warning'><a target='_blank' href='http://www.imdb.com/title/tt0120762/?ref_=nv_sr_1'>IMDB</a></button> <button class='btn btn-danger'><a target='_blank' href='https://www.youtube.com/watch?v=wAbGAkkOgcM'>YouTube</a></button></p>"
+    },
+    {
+      "title" : "Tarzan",
+      "directors" : "<h3>Directed By:</h3> <p> Kevin Lima and Chris Buck </p>",
+      "releaseYear": "<h3>Year Released</h3> <p>1999</p>",
+      "worldwideGross" : "<h3>World Wide Gross </h3> <p>$448,191,819</p>",
+      "plot" : "<h3>Plot</h3> <p> The film's plot is based on the story Tarzan of the Apes by Edgar Rice Burroughs. </p>",
+      "links": "<h3>Links</h3> <p><button class='btn btn-warning'><a target='_blank' href='http://www.imdb.com/title/tt0120855/?ref_=nv_sr_2'>IMDB</a></button> <button class='btn btn-danger'><a target='_blank' href='https://www.youtube.com/watch?v=lfciC33t3M0'>YouTube</a></button></p>"
+
+    }
+
+  ]
+}

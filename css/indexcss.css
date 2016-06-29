@@ -1,0 +1,278 @@
+/** Global Styles **/
+
+body{
+    position: relative;
+}
+
+h2, h3, p{
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1{
+    font-family: 'Cormorant Unicase', serif;
+    font-weight: 800;
+    text-align: center;
+    color: #fff;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+/** Header **/
+.page-header {
+    height: auto;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    padding-top: 50px;
+    height: 200px;
+    color: #000;
+    background-color: #23527c;
+    margin-bottom: 0;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+h1 > small {
+    color: #ffffff;
+}
+
+/** Nav Bar Styles **/
+.navbar-custom {
+    background-color: #3c3c3c;
+    border-radius: 0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+}
+
+.navbar-custom .navbar-nav > li > a:hover {
+    color:#000;
+}
+
+.navbar-custom .navbar-brand {
+    color:#eeeeee;
+}
+
+.navbar-toggle {
+    background-color: #000;
+}
+
+.icon-bar {
+    background-color: #fff;
+}
+
+/**Movies-Section Style **/
+#Movies{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 20%;
+    padding-left: 20%;
+    height: auto;
+    width: 100%;
+    color: #fff;
+    background-color: #c0a16b;
+}
+
+img {
+    width: 125px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.col-half-offset {
+    margin-left: 4.16%;
+}
+
+/**About-Section Style **/
+#About{
+    padding-top: 10px;
+    height: auto;
+    color: #fff;
+    background-color: #673ab7;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+#About > p {
+    padding-bottom: 10px;
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+}
+
+/**Modal Styles **/
+
+.modal {
+    color:#000;
+}
+
+.modal-header {
+    border-radius: 10px;
+}
+
+.modal-header h2{
+    font-family: 'Cormorant Unicase', serif;
+    font-weight: bold;
+}
+
+.modal-header, .modal-footer {
+    cursor: move;
+}
+
+/** Footer Styles **/
+#Footer {
+    background-color: #000000;
+    height: 100%;
+}
+
+#Footer > p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/** Media Queries **/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    body{
+        width: 100%;
+    }
+
+    img {
+        width: 70px;
+        height: 90px;
+    }
+
+    #Movies{
+        padding: 10px 5% 20px 10%;
+        height: auto;
+    }
+
+    #About {
+        padding-top: 10px;
+        height: auto;
+    }
+
+    #About p {
+        font-size: 1.4em;
+    }
+
+    .page-header {
+        text-align: center;
+        z-index: 2;
+        position: relative;
+        padding-top: 10px;
+        height: 200px;
+        color: #000;
+        background-color: #23527c;
+        margin-bottom: 0;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+
+@media only screen and (min-width:321px ) and (max-width: 480px) {
+    img {
+        padding: 5px;
+        width: 50px;
+        height: 60px;
+    }
+
+    body{
+        width: 100%;
+    }
+
+    #Movies {
+        padding-left: 20%;
+        height: auto;
+        width: auto;
+    }
+
+    #About {
+        padding-top: 10px;
+        height: auto;
+    }
+
+    #About p {
+        font-size: 1.2em;
+    }
+
+    .page-header {
+        text-align: center;
+        z-index: 2;
+        position: relative;
+        padding-top: 10px;
+        height: 200px;
+        color: #000;
+        background-color: #23527c;
+        margin-bottom: 0;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    img {
+        width: 30px;
+        height: 50px;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    #Movies  {
+        height: auto;
+    }
+
+    #About {
+        padding-top: 10px;
+        height: auto;
+    }
+
+    #About > p {
+        font-size: 1em;
+        display: inline-block;
+    }
+
+    #Header > h1 {
+        font-size: 2em;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 960px) {
+
+    img {
+        width: 80px;
+        height: 140px;
+    }
+
+    #Movies {
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    #About {
+        font-size: 1em;
+        height: auto;
+    }
+}
+
+
